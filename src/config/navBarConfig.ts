@@ -33,12 +33,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
-	// 友链
-	links.push(LinkPresets.Friends);
-
-	// 留言板
-	links.push(LinkPresets.Guestbook);
-
 	// 我的及其子菜单
 	links.push({
 		name: "我的",
@@ -56,19 +50,11 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
-	// 关于及其子菜单
-	links.push({
-		name: "关于",
-		url: "#",
-		icon: "material-symbols:info",
-		children: [
-			// 打赏
-			LinkPresets.Sponsor,
+	// 留言板
+	links.push(LinkPresets.Guestbook);
 
-			// 关于页面
-			LinkPresets.About,
-		],
-	});
+	// 友链
+	links.push(LinkPresets.Friends);
 
 	// 自定义导航栏链接
 	links.push({
@@ -101,6 +87,20 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true,
 				icon: "material-symbols:docs",
 			},
+		],
+	});
+
+	// 关于及其子菜单
+	links.push({
+		name: "关于",
+		url: "#",
+		icon: "material-symbols:info",
+		children: [
+			// 打赏
+			LinkPresets.Sponsor,
+
+			// 关于页面
+			LinkPresets.About,
 		],
 	});
 
