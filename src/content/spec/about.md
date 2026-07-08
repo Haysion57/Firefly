@@ -1,29 +1,45 @@
 # 关于我 / About Me
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+你好！我是 **Haysion57**，一个在化工厂与电与火花为伴的打工人，同时也是一名热爱技术的数码爱好者。
 
-## 🛠️ 关于本站
+## 🌱 关于我
 
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+白天，我在工厂里烧电焊，在电与火的世界中寄存自我；  
+夜晚，我坐在电脑前，在代码的世界里寻找另一种~~乐趣~~消磨时间的方式。  
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+~~我相信技术的力量可以让生活更美好，所以不断学习和尝试新事物成为了我的日常。~~  
+🤪只是闲得慌，找点事做。
 
+都说三十而立，但我已经二十有九，越来越看不清了。  
+我辞掉了月薪八千（ps：卷的要命）的工作，回到离家二百公里的城市干着月薪五千的工作，工资少了，心却闲了。  
+想要的努努力能得到的都有了，得不到的也放弃了。。。
 
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
+## 🛠️ 技能与爱好
 
-**🏠我的博客： [https://blog.cuteleaf.cn](https://blog.cuteleaf.cn/)**
+- **编程**：正在学习前端开发，喜欢用代码创造有趣的东西
+- **折腾**：热衷于探索各种软件、工具和系统优化
+- **写作**：~~希望通过文字记录成长，分享经验~~正在尝试
+- **摄影**：用镜头捕捉生活中的小美好，设备A7M3，镜头适马70-200
+- **电焊**：吃饭的技能，得掌握
 
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
+## 📝 关于这个博客
 
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
+这个博客是我的个人空间，主要记录：
 
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
+- 💡 **技术笔记**：学习过程中的知识点和心得
+- 🔧 **解决方案**：工作和学习中遇到的问题及解决方法
+- 📚 **读书感悟**：阅读技术书籍和文章的收获
+- 🌌 **生活随笔**：偶尔分享生活中的思考和感悟
 
-::github{repo="CuteLeaf/Firefly"}
+## 💬 联系我
 
-::github{repo="saicaca/fuwari"}
+如果你有任何问题或建议，欢迎与我交流！  
+Email：haysion57@qq.com  
+QQ：haysion57
 
 ---
 
-*感谢你的来访！希望在这里能找到对你有用的内容！*
+*感谢你的来访！希望这里的内容能对你有所帮助。*
+
+*保持热爱，继续前行 🌟*
 
