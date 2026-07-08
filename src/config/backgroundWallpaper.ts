@@ -6,9 +6,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	// 是否允许用户通过导航栏切换壁纸模式
 	// 且同时维护多种壁纸模式过于复杂（已经屎山代码），在切换时有时候可能会出现一些奇怪的过渡效果或者bug
 	// 推荐只选择自己喜欢的模式并关闭切换功能
-	switchable: true,
+	switchable: false,
 	// 是否启用背景视频播放，配置后将在导航栏显示视频播放按钮
-	playerEnable: true,
+	playerEnable: false,
 	/**
 	 * 背景图片配置
 	 * 图片路径支持三种格式：
@@ -79,7 +79,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 是否允许用户通过控制面板切换横幅标题显示
-			switchable: true,
+			switchable: false,
 			// 主页横幅主标题
 			title: "Lovely firefly!",
 			// 主页横幅主标题字体大小
@@ -101,11 +101,11 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				// 打字机关闭 → 每次刷新随机显示一条副标题
 				enable: true,
 				// 打字速度（毫秒）
-				speed: 100,
+				speed: 75,
 				// 删除速度（毫秒）
-				deleteSpeed: 50,
+				deleteSpeed: 32.5,
 				// 完全显示后的暂停时间（毫秒）
-				pauseTime: 2000,
+				pauseTime: 3000,
 			},
 		},
 		// 导航栏配置
@@ -126,7 +126,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				mobile: true,
 			},
 			// 是否允许用户通过控制面板切换水波纹动画
-			switchable: true,
+			switchable: false,
 		},
 		// 渐变过渡效果配置，当水波纹关闭时自动启用，提供壁纸底部到背景色的平滑过渡
 		gradient: {
@@ -139,18 +139,18 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 渐变高度
 			height: "10%",
 			// 是否允许用户通过控制面板切换渐变过渡
-			switchable: true,
+			switchable: false,
 		},
 		// 壁纸轮播配置，横幅壁纸和全屏壁纸共享，仅在配置多张图片时生效
 		carousel: {
 			// 是否启用壁纸轮播；关闭时保持每次刷新随机显示一张
-			enable: false,
+			enable: true,
 			// 轮播切换间隔（毫秒）
 			interval: 5000,
 			// 过渡效果: 'fade' 渐变 | 'zoom' 缩放 | 'slide' 滑动 | 'kenburns' 旋转木马
 			transitionEffect: "zoom",
 			// 是否允许用户通过控制面板切换壁纸轮播
-			switchable: true,
+			switchable: false,
 		},
 	},
 	// Banner模式特有配置
@@ -164,9 +164,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	overlay: {
 		// 是否允许用户通过控制面板调整全屏透明模式参数
 		switchable: {
-			opacity: true,
-			blur: true,
-			cardOpacity: true,
+			opacity: true,		// 是否允许用户调整壁纸透明度
+			blur: true,			// 是否允许用户调整背景模糊度
+			cardOpacity: true,	// 是否允许用户调整卡片透明度
 		},
 		// 层级，确保壁纸在背景层
 		zIndex: -1,
