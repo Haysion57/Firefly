@@ -53,9 +53,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	// 留言板
 	links.push(LinkPresets.Guestbook);
 
-	// 友链
-	links.push(LinkPresets.Friends);
-
 	// 自定义导航栏链接
 	links.push({
 		name: "链接",
@@ -63,6 +60,10 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		icon: "material-symbols:link",
 		// 子菜单
 		children: [
+
+				// 友链
+				LinkPresets.Friends,
+
 			{
 				name: "QQ",
 				url: "https://qm.qq.com/q/fct2gHf9h6",
@@ -73,19 +74,13 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				name: "Mail",
 				url: "mailto:haysion57@qq.com",
 				external: true,
-				icon: "material-symbols:mail",
+				icon: "fa7-solid:envelope",
 			},
 			{
 				name: "GitHub",
 				url: "https://github.com/Haysion57",
 				external: true,
 				icon: "fa7-brands:github",
-			},
-			{
-				name: "Firefly文档",
-				url: "https://docs-firefly.cuteleaf.cn",
-				external: true,
-				icon: "material-symbols:docs",
 			},
 		],
 	});
@@ -101,16 +96,15 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 			// 关于页面
 			LinkPresets.About,
+
+		{
+			name: "建站文档",
+			url: "https://docs-firefly.cuteleaf.cn",
+			external: true,
+			icon: "material-symbols:docs",
+		},
 		],
 	});
-
-	// 文档链接
-	// links.push({
-	// 	name: "文档",
-	// 	url: "https://docs-firefly.cuteleaf.cn",
-	// 	external: true,
-	// 	icon: "material-symbols:docs",
-	// });
 
 	return { links } as NavBarConfig;
 };
