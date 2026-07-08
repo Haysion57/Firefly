@@ -4,8 +4,8 @@ published: 1970-01-01
 updated: 1970-01-01
 description: "了解 Firefly 中的 Markdown 功能"
 image: ""
-tags: [演示, 示例, Markdown, Firefly]
-category: "文章示例"
+tags: [示例]
+category: "博客指南"
 draft: false
 ---
 
