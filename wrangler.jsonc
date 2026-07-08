@@ -1,8 +1,16 @@
 {
+	// 项目名称，用于 Cloudflare Pages 部署
 	"name": "firefly",
+
+	// 兼容性日期，指定使用的 Cloudflare Workers 运行时版本
 	"compatibility_date": "2025-01-01",
+
+	// 兼容性标志，启用 Node.js 兼容模式
 	"compatibility_flags": ["nodejs_compat"],
+
+	// 静态资源配置
 	"assets": {
+		// 静态资源目录，指向构建输出目录
 		"directory": "./dist"
 	}
 }
