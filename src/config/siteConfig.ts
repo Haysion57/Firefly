@@ -125,10 +125,7 @@ export const siteConfig: SiteConfig = {
 		// 移动端默认布局模式，不设置则跟随 defaultMode
 		mobileDefaultMode: "grid",
 		// 是否允许用户切换布局
-<<<<<<< HEAD
 		allowSwitch: false,
-=======
-		allowSwitch: true,
 		// 文章简介显示行数，设为 0 则不截断
 		descriptionLines: 2,
 		// 文章卡片底部统计和发布日期是否显示图标
@@ -162,7 +159,6 @@ export const siteConfig: SiteConfig = {
 			// 是否显示阅读时间
 			showReadingTime: true,
 		},
->>>>>>> upstream/master
 		// 网格布局配置，仅在 defaultMode 为 "grid" 或允许切换布局时生效
 		grid: {
 			// 是否开启瀑布流布局，同时有封面图和无封面图的混合文章推荐开启
