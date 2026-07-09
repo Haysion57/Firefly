@@ -1,0 +1,4 @@
+Canonical: https://hs57.eu.cc/.well-known/security.txt
+Contact: mailto:haysion57@qq.com
+Expires: 2036-12-09T01:00:00Z
+Preferred-Languages: zh-CN,en
